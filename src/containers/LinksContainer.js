@@ -23,7 +23,7 @@ class LinksContainer extends React.Component{
   }
 
   addComment = (title)=> {
-    const post = Object.assign({}, {title, img: '', parentId: this.state.selectedPost, time: new Date(), publisher: this.username}, {...initialPostValues});
+    const post = Object.assign({}, {title, img: '', parentId: this.state.selectedPost, time: new Date(), publisher: this.props.username}, {...initialPostValues});
     this.props.addComment(post)
     this.closeModal();
   }
