@@ -1,0 +1,84 @@
+html, body{
+  font-family: verdana;
+  padding: 0;
+  margin: 0;
+  font-size: 12px;
+  color:#333;
+}
+
+ul, li{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.buttonsRow{
+  padding: 1rem 0;
+display: flex;
+align-items: center;
+justify-content: flex-end;
+}
+button, input[type='button'], input[type='submit']{
+  background-color: #4A5240;
+  border-radius: .5rem;
+  padding: .5rem 1rem;
+  color: white;
+  border: 0 none;
+  transition: all .3s ease;
+  box-shadow: none;
+  outline: none;
+  margin: 0 .5rem;
+  cursor: pointer;
+}
+
+h2{
+  padding: 1rem;
+}
+
+button.cancel{
+  background-color: #A28497;
+}
+
+button:not(:disabled):hover, button:not(:disabled):active, input[type='submit']:not(:disabled):hover,  input[type='submit']:not(:disabled):active{
+  box-shadow: .3rem .3rem .3rem rgba(0,0,0,0.5);
+}
+
+button:disabled, input[type='submit']:disabled{
+  cursor: default;
+  color: #ccc;
+  text-shadow: -1px -1px 1px gray inset;
+}
+a{
+  cursor: pointer;
+  color: #07C;
+}
+
+.field{
+  display: flex;
+  box-shadow: 0 2px 1px rgba(0,0,0,0.5);
+  padding: 1rem;
+  min-width: 500px;
+  margin: 2rem;
+}
+
+.field input{
+  flex: 1;
+}
+.padded-right{
+  padding-right: 1rem;
+}
+
+.addNewWrapper{
+  display: flex;
+  justify-content: flex-end;
+  margin: 1rem;
+}
+a:hover, a:active{
+  text-decoration: underline;
+}
+textarea{
+  resize: none;
+
+}
+.mainList{
+  overflow-y: auto;
+}

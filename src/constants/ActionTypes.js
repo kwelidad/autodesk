@@ -1,0 +1,5 @@
+export const GET_LINKS = 'GET_LINKS'
+export const ADD_POST = 'ADD_POST'
+export const ADD_COMMENT = 'ADD_COMMENT'
+export const UPVOTE_POST = 'UPVOTE_POST'
+export const UPVOTE_COMMENT = 'UPVOTE_POST'

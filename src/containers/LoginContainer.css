@@ -1,0 +1,20 @@
+.formWrapper{
+  display: flex;
+  justify-content: center;
+  margin: 5rem auto;
+}
+.formContainer{
+  display: flex;
+  flex-direction: column;
+  border-radius: 2rem;
+  background: #ADA8BE;
+  padding: 4rem;
+  border: 1px solid #4A5240;
+  box-shadow: 0 0 5px rgba(0,0,0,0.8);
+}
+.loginForm{
+  display: flex;
+}
+.loginForm input{
+  flex:1;
+}

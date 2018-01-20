@@ -1,0 +1,55 @@
+.autoddit {
+  padding: 1rem;
+  border-top: 1px solid #ccc;
+
+}
+.autoddit:last-child{
+border-bottom: 1px solid #ccc;
+
+}
+.post-item img{
+  width: 50px;
+  height: 50px;
+  object-fit: contain;
+}
+
+.margined{
+  margin-left: 3rem;
+  margin-top: 1rem;
+  border-top: 1px solid #ccc;
+}
+.mainItem{
+  display: flex;
+  align-items: center;
+}
+.commentsRow{
+  display: flex;
+}
+.comments{
+
+}
+
+.comments:hover{
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.upvotes{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 1rem;
+}
+.upvotes i{
+  cursor: pointer;
+}
+
+.upvotes i.selected{
+  cursor: default;
+}
+.upvotes .fa-arrow-down.selected{
+  color: red;
+}
+.upvotes .fa-arrow-up.selected{
+  color: green;
+}
